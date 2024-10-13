@@ -40,6 +40,8 @@ internal class ConcreteBuilder : Builder
 
 internal class Program
 {
+    // Строитель (Builder) - шаблон проектирования, который инкапсулирует
+    // создание объекта и позволяет разделить его на различные этапы.
     private static void Main(string[] args)
     {
         var builder = new ConcreteBuilder();
