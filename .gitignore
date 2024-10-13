@@ -1,0 +1,38 @@
+# Папка с артефактами сборки
+bin/
+obj/
+
+# Файлы настройки пользователя
+*.user
+*.rsuser
+
+# Логи
+*.log
+
+# Папка с зависимостями NuGet
+packages/
+.nuget/
+
+# Конфигурационные файлы IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Конфигурации сборки
+.project
+*.csproj.user
+*.csproj.DotSettings
+
+# Автоматически созданные файлы и кеши
+*.vs/
+.DS_Store
+Thumbs.db
+
+# Папки для публикации
+publish/
+
+# Настройки для MacOS
+*.DS_Store
